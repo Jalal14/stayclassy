@@ -1,0 +1,287 @@
+body{
+    font-family: 'Russo One', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+.error{
+    color: red;
+}
+.nav-item a{
+    font-size: 17px;
+}
+
+.brand-link li a{
+    font-size: 36pt;
+}
+
+#search-icon{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-top: 5px;
+}
+
+#search-box{
+    margin-top: 5px;
+}
+
+#search-icon.active{
+    border: none;
+}
+
+#main-banner{
+    margin-top: 98px;
+}
+
+#main-banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+.carousel-indicators li{
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: #404040;
+    margin: 15px;
+}
+
+.carousel-indicators li:hover{
+    cursor: pointer;
+}
+
+.front-product{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    background-color: aliceblue;
+}
+
+.section-heading{
+    text-align: center;
+    font-family: Russo One;
+    font-size: 29px;
+    margin-bottom: 2%;
+}
+
+.essential-products{
+    padding: 2% 2%;
+}
+
+.essential-products img{
+    height: 80%;
+    width: 100%;
+}
+
+.offer{
+    position: absolute;
+    margin: 0 0 0 60%;
+    padding: 8% 6%;
+    border-radius: 100%;
+    background-color: red;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+
+.buy-option{
+    float: right;
+    color: limegreen;
+    font-family: Russo one;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-top: -15px;
+    position: relative;
+    overflow: auto;
+    margin-bottom: 1px;
+    
+}
+
+.essential-products img{
+    margin-left: 10px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.essential-products a:hover{
+    text-decoration: none;
+    color: limegreen;
+}
+
+.essential-product-info{
+    text-align: center;
+}
+
+.buy-name a{
+    color: black;
+    font-family: Russo one;
+    font-size: 18px;
+}
+
+.buy-name a:hover{
+    color: black;
+}
+
+.buy-price{
+    font-family: Russo one;
+    font-size: 16px;
+}
+
+.break-speech a{
+    word-break: break-word;
+    text-align: center;
+    color: white;
+}
+
+.break-speech a:hover{
+    text-decoration: none;
+}
+
+#promotion-left{
+    padding-left: 10%;
+    background-color: black;
+    padding-bottom: 60%;
+}
+
+#left-speech{
+    padding-right: 30%;
+    margin-top: 200px;
+    color: white;
+    font-family: Russo one;
+    font-size: 19px;
+}
+#left-speech img{
+    position: absolute;
+    margin-top: -30%;
+    max-width: 700px;
+    margin-left: 25%;
+}
+
+#right-speech{
+    margin: 0 10%;
+    margin-top: 130%;
+    font-family: Russo one;
+    font-size: 19px;
+    color: black;
+}
+
+#right-speech img{
+    position: absolute;
+    margin-top: -40%;
+    margin-left: -100%;
+    width: 100%;
+}
+
+.social-links{
+    text-align: center;
+}
+.social-links a img{
+    height: 30px;
+    margin: 0px 10px;
+}
+
+.footer{
+    position: sticky;
+    background-color: #343a40 !important;
+    padding: 30px 10% 0 10%;
+}
+
+.footer-content{
+    padding: 0px 10px;
+    font-family: Russo one;
+    font-size: 14px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.policy{
+    padding-bottom: 10px;
+    border-bottom: 1px solid aliceblue;
+}
+
+#contact{
+    padding-top: 50px;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-150%);
+}
+
+.owl-prev {
+    left: -1rem;
+}
+
+.owl-next {
+    right: -1.5rem;
+}
+
+#confirm-order{
+    margin: 120px auto;
+}
+
+@media only screen and (max-width: 991px) {
+    #big-screen{
+        display: none;
+    }
+    .nav-links li a{
+        font-family: 'Russo One', sans-serif;
+        font-size: 12px;
+        color: white;
+    }
+    
+    .brand-link li a{
+        font-family: 'Russo One', sans-serif;
+        font-size: 24pt;
+        color: white;
+    }
+    #main-banner{
+        margin-top: 74px;
+    }
+    #promotion-left{
+        padding-left: 10%;
+        background-color: black;
+        padding-bottom: 60%;
+    }
+
+    #promotion-right {
+        margin-bottom: 60%;
+    }
+
+    #left-speech{
+        margin-top: 15%;
+        color: white;
+        font-family: Russo one;
+        font-size: 19px;
+    }
+    #left-speech img {
+        position: absolute;
+        margin-top: 10%;
+        max-width: 100%;
+        margin-left: -52%;
+    }
+    #right-speech img {
+        margin-left: -138%;
+        width: 100%;
+    }
+
+    #right-speech{
+        margin-right: 5%;
+        margin-top: 10%;
+        font-family: Russo one;
+        font-size: 19px;
+        text-align: center;
+        color: black;
+    }
+
+    #right-speech img{
+        position: absolute;
+        margin-top: 0;
+        margin-left: -47%;
+    }
+    
+}

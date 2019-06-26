@@ -1,0 +1,86 @@
+.details-body{
+    margin-top: 120px;
+    margin-bottom: 5%;
+    min-height: 600px;
+}
+
+#detail-body{
+    margin-bottom: 5%;
+}
+
+#content{
+    min-height: 250px;
+}
+
+.thumbnail{
+    padding: 1%;
+    background-color: white;
+}
+
+.thumbnail img{
+    max-height: 300px;
+    max-width: 400px;
+    padding: 0 18%;
+}
+
+.thumbnail img:hover{
+    border: 1px solid blue;
+}
+
+.tab-content{
+    padding: 5px;
+    background-color: white;
+}
+
+#order{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 1%;
+    margin: 0px 0px 34% 5%;
+}
+
+.product-all-image{
+    padding: 5px;
+    margin: 5px 0px 5px 20px;
+}
+
+.product-all-image img{
+    width: 60px;
+}
+
+.product-all-image:hover{
+    cursor: pointer;
+}
+
+#pagination ul li{
+    padding: 2px 10px;
+}
+
+#pagination ul li, #pagination ul li{
+    border-right: none;
+}
+
+#pagination .active{
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+}
+
+#pagination ul li a:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .thumbnail{
+        max-width: 100%;
+    }
+    .thumbnail img{
+        max-height: 300px;
+        max-width: 100%;
+        padding: 0 calc(10%);
+    }
+    .product-all-image{
+        max-width: 28%;
+    }
+}
